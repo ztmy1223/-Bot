@@ -38,4 +38,6 @@ my_mahjong_bot/
 ├── utils.py              # グラフ描画・ランキング更新などの共通関数・辞書
 └── cogs/                 # 各種コマンドの処理クラス（Cogs）
     ├── register.py       # 登録・ユーザー管理（/register, !rename 等）
-    ├── stats.py          # 成績確認・手動ランキング更新（/stats
+    ├── stats.py          # 成績確認・手動ランキング更新（/stats, /ur）
+    ├── match.py          # 試合結果登録・対局募集・卓作成（!submit, /set 等）
+    └── translate.py      # DeepLメッセージ翻訳（!en, !jp, !zh）
